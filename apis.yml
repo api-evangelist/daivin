@@ -1,7 +1,18 @@
 aid: daivin
 name: Daivin
-description: Daivin is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'DAIVIN! is a deep-tech hardware company (Y Combinator Winter 2026, based
+  in San Francisco and Finland) building tankless diving technology. Its core product,
+  SPRING, is marketed as the "world''s first tankless diving technology": instead of
+  carrying heavy pressurized oxygen tanks, a diver wears a lightweight vest of electrolyzers
+  and a battery belt that use electricity to split water on demand into breathable
+  oxygen (O2) and hydrogen (H2), targeting depths up to 200 meters / 650 ft. Founder
+  Leo Kankkunen frames breathing as "fundamentally an energy problem," and the company
+  envisions applications beyond recreational and professional diving across space exploration,
+  high-altitude rescue, hospitals, and aircraft. Added to the API Evangelist network
+  as a venture-capital portfolio lead surfaced via y-combinator. Daivin runs a conceptual
+  marketing website (Wix) and a news blog; it publishes no public API, developer portal,
+  SDK, or other machine-readable developer surface, so no API artifacts apply to this
+  provider.'
 url: https://raw.githubusercontent.com/api-evangelist/daivin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,52 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://static.wixstatic.com/media/3a3f12_27889fdcbf604e6d84bb16761193d675~mv2.png/v1/fill/w_1024,h_1024,al_c/3a3f12_27889fdcbf604e6d84bb16761193d675~mv2.png
 tags:
 - Company
+- Deep Tech
+- Hardware
+- Diving
+- Electrolysis
+- Oxygen Generation
+- Life Support
+- Y Combinator
+- San Francisco
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.daivin.tech
+- type: Blog
+  url: https://www.daivin.tech/blog
+- type: DomainSecurity
+  url: security/daivin-domain-security.yml
+- type: Twitter
+  url: https://x.com/DAIVIN_TECH
+- type: YouTube
+  url: https://www.youtube.com/@DAIVINTECH
+- type: LinkedIn
+  url: https://www.linkedin.com/company/daivin
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
